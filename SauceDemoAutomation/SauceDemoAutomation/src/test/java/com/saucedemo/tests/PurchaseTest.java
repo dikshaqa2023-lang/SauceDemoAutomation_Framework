@@ -21,7 +21,7 @@ public class PurchaseTest extends BaseTest {
         cartPage.clickCheckout();
 
         CheckoutPage checkoutPage = new CheckoutPage();
-        checkoutPage.enterCustomerDetails("Saloni", "Sharma", "452001");
+        checkoutPage.enterCustomerDetails("Deeksha", "Prajapati", "452004");
         checkoutPage.clickContinue();
         checkoutPage.clickFinish();
 
